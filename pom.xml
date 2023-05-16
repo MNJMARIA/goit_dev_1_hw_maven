@@ -17,6 +17,7 @@
   </properties>
 
   <build>
+    <finalName>goit_dev_1_hw_maven</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
@@ -24,7 +25,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>org.example.Main</mainClass>
+              <mainClass>Main</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>
